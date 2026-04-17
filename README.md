@@ -12,4 +12,4 @@ This project is a simple Bash script that calculates simple interest based on us
 Simple Interest = (Principal × Rate × Time) / 100
 
 ## Author
-Your Name
+Jadav Shreya
