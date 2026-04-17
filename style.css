@@ -1,0 +1,87 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+/* LOGO */
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* NAV LINKS */
+.nav-items a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.nav-items a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+/* SEARCH AREA */
+.search-area {
+  display: flex;
+  gap: 5px;
+}
+
+.search-area input {
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-area button {
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: white;
+}
+
+/* CONTENT */
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* RECOMMENDATIONS */
+.recommendation-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.rec-card {
+  background: white;
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.rec-card img {
+  width: 100%;
+  border-radius: 10px;
+}
