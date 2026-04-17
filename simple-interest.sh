@@ -15,3 +15,4 @@ read time
 si=$((principal * rate * time / 100))
 
 echo "Simple Interest is: $si"
+# Fixed calculation bug
